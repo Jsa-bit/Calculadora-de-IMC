@@ -30,13 +30,7 @@ form.addEventListener('submit',function(event){
     }else {
         description = "Você tem obesidade mórbida."
     }
-        
-    
 
-
-
-
-
-    value.textContent = bmi.replace('.',',');
+    {}value.textContent = bmi.replace('.',',');
     document.getElementById('description').textContent=description;
 });
